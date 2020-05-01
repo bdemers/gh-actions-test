@@ -37,5 +37,5 @@ jobs:
         with:
           java-version: ${{ matrix.java }}
       - name: Build and Test
-        run: ./mvnw --version
+        run: echo ./mvnw --version
 
